@@ -1,11 +1,11 @@
 import '../main'
 
-function Regiao() {
-    return (
-    <div>
-      <h2>Filtrar pela regiao</h2>
-  
-    </div>
+function Regiao(){
+
+  return (
+  <div className='flex flex-col items-center max-w-6xl m-auto'>
+   <p>Olá</p>
+  </div>
   )
 }
 

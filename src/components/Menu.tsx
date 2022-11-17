@@ -7,10 +7,13 @@ function Menu() {
       <a href="Home">PokéDex</a>
      </h1>
      <div className='flex flex-row flex-wrap gap-4 my-5 h-20 w-full bg-blue-100 items-center justify-center rounded-xl '>
-      <a href="/regiao" className='w-[160px] h-[60px] bg-amber-200 rounded-3xl'>Região</a>
-      <a href="/tipo" className='w-[160px] h-[60px] bg-red-200 rounded-3xl'>Tipo</a>
-      <a href="/pokedex" className='w-[160px] h-[60px] bg-green-200 rounded-3xl'>PokéDex</a>
-      <button className='w-[480px] h-[60px] bg-sky-200 rounded-3xl'>Pesquisar</button>
+      <a className='w-[160px] h-[60px] bg-amber-200 rounded-3xl text-center flex items-center justify-center hover:bg-amber-100 hover:text-2xl' href="/regiao" >Região</a>
+      <a href="/tipo" className='w-[160px] h-[60px] bg-red-200 rounded-3xl flex items-center justify-center hover:bg-red-100 hover:text-2xl'>Tipo</a>
+      <a href="/pokedex" className='w-[160px] h-[60px] bg-green-200 rounded-3xl flex items-center justify-center hover:bg-green-100 hover:text-2xl'>PokéDex</a>
+      <form>
+        <label htmlFor="nome"></label>
+        <input className='w-[480px] h-[60px] bg-sky-200 rounded-3xl pl-5 hover:bg-sky-100' type="text" id='pokemon' />
+      </form>
      </div>
      
     </div>

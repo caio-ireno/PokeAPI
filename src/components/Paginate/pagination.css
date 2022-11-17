@@ -1,0 +1,21 @@
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 5px;
+  max-width: 72rem;
+  margin: auto;
+}
+
+.pagination-container li a {
+  padding: 0.25rem;
+  margin: 0 3px 0 3px;
+}
+
+.active {
+  background-color: #e0f2fe;
+  font-weight: bolder;
+  padding: 2px;
+  border-radius: 5px;
+}

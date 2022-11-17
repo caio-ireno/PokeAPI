@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Menu from './components/Menu'
 import Regiao from './components/Regiao'
 import Tipo from './components/Tipo'
@@ -21,10 +22,15 @@ function App() {
   }
 
   return (
-  <div>
+    <BrowserRouter>
     <Menu/>
-    <Component/>
-  </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="tipo" element={<Tipo />} />
+      <Route path="regiao" element={<Regiao />} />
+      <Route path="pokedex" element={<Pokedex />} />
+    </Routes>
+  </BrowserRouter>
   )
 }
 

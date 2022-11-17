@@ -2,7 +2,7 @@ import '../main'
 
 function Tipo() {
     return (
-    <div>
+    <div className='flex flex-col items-center max-w-6xl m-auto'>
       <h2>Filtrar pelo Tipo</h2>
     </div>
   )
