@@ -1,4 +1,4 @@
-import '../main';
+import '..';
 import { useState, useEffect } from 'react';
 import { ListPokemon } from './services/ListPokemon';
 import { PokemonDetail } from './PokemonDetails';
